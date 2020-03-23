@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bank Account</title>
+<script src="index.js" type="module" async defer></script>
+
+
+<h1>Bank Account Example</h1>
+<main>
+  <p>Acc. Holder: </p>
+  <p id=holder>-</p>
+
+  <p>Ac/No: </p>
+  <p id=acno>-</p>
+
+  <p>Balance: </p>
+  <p id=balance>-</p>
+
+  <p>Overdraft: </p>
+  <p id=overdraft>-</p>
+
+  <p>Available Funds: </p>
+  <p id=funds>-</p>
+
+  <p>Actions</p>
+  <p>£<input type=number id=amount value=10></input>
+    <button id=deposit>Deposit</button>
+    <button id=withdraw>Withdraw</button>
+  </p>
+</main>
+
+<style>
+  main {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: "head head";
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    padding: 1rem;
+  }
+
+  main>* {
+    padding-left: 1rem;
+  }
+</style>
