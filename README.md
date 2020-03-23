@@ -30,6 +30,10 @@ cd bankacc
 npm test
 ```
 
+### Live
+
+A browser client has also been created that imports and uses the `BankAcc` class.  This can be seen [live here](https://portsoc.github.io/bankacc/) or run locally - how to do that is left as an exercise for the reader - you'll need to run a local server.
+
 ### Notes
 
 * This example uses ES6 modules.
