@@ -1,0 +1,19 @@
+{
+  "name": "bankacc",
+  "version": "0.1.0",
+  "description": "A familiar Bank Account example translated into a JS class.",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-modules main.js"
+  },
+  "keywords": [
+    "js",
+    "bank",
+    "account",
+    "java",
+    "translate"
+  ],
+  "author": "Rich Boakes <rich@boakes.org>",
+  "license": "ISC"
+}
