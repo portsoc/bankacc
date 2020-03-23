@@ -6,7 +6,7 @@ The classic BankAccount example converted from Java to JavaScript.
 
 ### Install
 
-Either download and uncompress this zip file, or (preferably) clone the repo using git as follows:
+Either download and uncompress [this zip file](https://github.com/portsoc/bankacc/archive/master.zip), or (preferably) clone the repo using git as follows:
 
 ```bash
 git clone https://github.com/portsoc/bankacc.git
