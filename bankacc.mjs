@@ -1,7 +1,6 @@
 export class BankAcc {
 
   // declare private fields
-  // each instance has it's own intern
   #name;
   #number;
   #overdraft;
